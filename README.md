@@ -2,6 +2,7 @@
 
 This repository contains a project for detecting birds and drones using the YOLOv8 deep learning model. The model is trained on a custom dataset and fine-tuned for improved accuracy. The project also includes steps for pruning, quantizing, and exporting the trained model to ONNX format for deployment.
 
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Aim of the Project](#aim-of-the-project)
@@ -50,6 +51,9 @@ The aim of this project is to differentiate between birds and drones using compu
 8. **Results Evaluation**
    - The performance of the model is evaluated using metrics like **Mean Average Precision (mAP)**.
    - The goal is to achieve a model that works in **real-time**, with high accuracy while also being efficient enough for **practical deployment** in real-world scenarios.
+
+### Detection Video
+[Detection Video](detection_video.mp4)
 
 
 ## Installation
