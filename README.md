@@ -53,7 +53,8 @@ The aim of this project is to differentiate between birds and drones using compu
    - The goal is to achieve a model that works in **real-time**, with high accuracy while also being efficient enough for **practical deployment** in real-world scenarios.
 
 ### Detection Video
-[Detection Video](detection_video.mp4)
+[![Detection Video](images/video_thumbnail.jpg)](detected_video.mp4)
+
 
 
 ## Installation
