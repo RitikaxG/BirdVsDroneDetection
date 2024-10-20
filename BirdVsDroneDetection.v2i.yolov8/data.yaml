@@ -1,0 +1,13 @@
+train: /Users/ritikagupta/Desktop/BirdVsDroneDetection/BirdVsDroneDetection.v2i.yolov8/train/images
+val: /Users/ritikagupta/Desktop/BirdVsDroneDetection/BirdVsDroneDetection.v2i.yolov8/valid/images
+test: /Users/ritikagupta/Desktop/BirdVsDroneDetection/BirdVsDroneDetection.v2i.yolov8/test/images
+
+nc: 2
+names: ['Bird', 'Drone']
+
+roboflow:
+  workspace: textdetection-ptee2
+  project: birdvsdronedetection-yejyp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/textdetection-ptee2/birdvsdronedetection-yejyp/dataset/2

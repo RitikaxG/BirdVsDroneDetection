@@ -1,0 +1,36 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore dataset and data files
+BirdVsDroneDetection.v2i.yolov8/train/images/*
+BirdVsDroneDetection.v2i.yolov8/valid/images/*
+BirdVsDroneDetection.v2i.yolov8/train/labels/*
+BirdVsDroneDetection.v2i.yolov8/valid/labels/*
+
+# Ignore model checkpoints and weights
+*.pt
+*.pth
+runs/
+
+# Ignore log files
+*.log
+
+# Ignore ONNX exported models
+*.onnx
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
